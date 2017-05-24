@@ -1,0 +1,18 @@
+Package: PSARseq
+Title: Population stratification analysis for RNA-Seq data 
+Version: 0.0.0.9000
+Authors@R: as.person(c(
+	"Jungsoo Gim <iedenkim@gmail.com> [aut, cre]",
+	"Christoph Lange <langech2007@gmail.com> [aut]"
+	))
+Description: This package, PSARseq, is designed for performing DE analysis by adjusting population stratification existing in RNA-seq data sets. The DE method is based on edgeR package in Bioconductor. What package dose is to evaluate proper confounding factors from the RNA-seq dataset and to use them in DE testing.
+Depends: R (>= 3.2.2)
+Imports:
+	NMF (>= 0.20.6),
+	RUVSeq (>= 1.4.0),
+	edgeR (>= 3.12.1),
+	EDASeq (>= 2.4.1)
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
